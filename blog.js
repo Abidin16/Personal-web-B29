@@ -44,11 +44,11 @@ function renderBlog() {
                                             <button class="btn-post">Post Blog</button>
                                         </div>
 
-                                        <h1>
-                                            <a href="blog-detail.html" target="_blank"
+                                        <h2>
+                                            <a href="#" target="_blank"
                                             >${blogs[i].title}</a
                                             >
-                                        </h1>
+                                        </h2>
 
                                         <div class="detail-blog-content">
                                            ${getFulltime(blogs[i].postAt)} | ${blogs[i].author}
